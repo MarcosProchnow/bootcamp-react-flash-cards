@@ -4,6 +4,8 @@ Projeto desenvolvido como estudo do **Bootcamp Desenvolvedor(a) React** (XP Educ
 
 Aplicação de flash cards para estudo: cadastro (CRUD) de cards e sessão de estudo, com login simulado e rotas protegidas. Código próprio, escrito a partir da ementa do curso.
 
+**Demo:** https://bootcamp-react-flash-cards.vercel.app
+
 ## Stack
 
 React 18 · TypeScript · Vite · React Router · Redux Toolkit · Styled Components · Vitest + Testing Library
@@ -37,7 +39,7 @@ Para entrar, informe qualquer nome (autenticação simulada). Os dados ficam no 
 | Redux Toolkit (M3) | `src/store/` |
 | Styled Components, estilos por props (M4) | `src/components/ui.ts` |
 | Testes: Jest-like (Vitest), Testing Library, TDD (M4) | `*.test.ts(x)` |
-| Deploy (M4) | build estático (`dist/`) publicável na Vercel ou Netlify |
+| Deploy (M4) | publicado na Vercel (`vercel.json` com rewrite de SPA) |
 
 Fora do escopo desta versão: Next.js (SSR/SSG), react-query/SWR e Cypress; ficam como evolução (ver abaixo).
 
@@ -46,7 +48,7 @@ Fora do escopo desta versão: Next.js (SSR/SSG), react-query/SWR e Cypress; fica
 - Back end real (por exemplo, a API do bootcamp Node.js) com SWR ou react-query.
 - Versão Next.js com SSG para a lista de cards.
 - Testes E2E com Cypress.
-- Deploy na Vercel.
+
 
 ## Estrutura
 
